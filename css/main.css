@@ -2,6 +2,7 @@
 	margin: 0px;
 }
 
+
 /*DaFont*/
 @font-face{
 	font-family: "Gloss_And_Bloom";
@@ -17,21 +18,24 @@
 }
 
 .main-header > h1{
-	font-size: 70px;
+	font-size: 90px;
 	text-align: center;
 	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
 	position: absolute;
 	z-index: 1;
 	color: white;
-	margin-top: 380px;
-	width: 80%;
-	padding-left: 20%;
-	line-height: 100px;
+	margin-top: 200px;
+	width: 88%;
+	padding-left: 14%;
+	line-height: 150px;
+	letter-spacing: 5px;
+	color: #42B3C0;
+	opacity: .9;
 }
 
 
 body {
-	background-color: #1cb7eb;
+	background-color: #D5F8FB;
 	height: 100%;
   	width: 100%;
   	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
@@ -70,7 +74,7 @@ ul .navbar-list {
 
 .nav>li>a {
 	color: #fff !important;
-	padding: 15px;
+	padding: 10px;
 }
 
 .nav>li>a:hover {
@@ -110,6 +114,11 @@ ul .navbar-list {
 #services {
 	
 }
+
+.services-title {
+	margin-top: 12px;
+}
+
 
 .services-image {
 	display: inline;

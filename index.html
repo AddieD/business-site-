@@ -32,10 +32,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	
 	<!-- Main CSS Stylesheet -->
+	<link href="css/main.css" rel="stylesheet">	
+	<!-- Main CSS Stylesheet -->
 	<link href="css/main.css" rel="stylesheet">
 	
 	<!-- TITLE -->
 	<title>AtoZ-Studio</title>
+
+	<!-- NAV -->
+	<link rel="stylesheet" href="priority-nav-core.css">
 
 </head>
 
@@ -51,12 +56,11 @@
 
 	<!-- Main Header -->
 <body>
+
 	<div class="main-header">
 		<h1>Let’s Create Something People Will Remember</h1>
 	</div>
 
-	<!-- Arrow Icon -->
-	<i class="fa fa-arrow-circle-o-down" aria-hidden="true" style="font-size:36px;color:white;margin-left:48%;margin-top:900px;position:absolute;z-index:1"></i>
 
 	<!-- TOP PART OF THE SITE - LET'S CALL IT MAIN -->
 	<div class="container-fluid navbar-fixed-top animated fadeInDown" id="main">
@@ -87,7 +91,7 @@
 	<div class="container-fluid">
 		<div class="row animated fadeIn">
 			<!-- <h1 class="top-message">Hi, we are <span>A to Z Studio</span>, a creative web design and development agency.</h1> -->
-			<img src="images/research.jpg" class="top-image img-responsive" alt="">
+				<img src="images/research4.png" class="top-image img-responsive" alt="">
 		</div>
 	</div>
 	
@@ -257,6 +261,8 @@
 		</div>
 	</div>
 
+	<!-- NAV -->
+	<script async src="priority-nav.js"></script>
 
 	<!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -264,6 +270,9 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
+	<script>
+		var nav = priorityNav.init();
+	</script>
 </body>
 
 </html>
