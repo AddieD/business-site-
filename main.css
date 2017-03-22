@@ -1,0 +1,209 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: #FFFB90;
+	height: 100%;
+  	width: 100%;
+}
+
+/* TOP SECTION */
+
+#main {
+	background-color: #000;
+	opacity: 0.7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Futura", "Helvetica", sans-serif;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
+
+.logo {
+	float: left;
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.navbar-header > .navbar-brand {
+	font-size: 32px;
+	color: #fff;
+	padding: 15px;
+}
+
+ul .navbar-list {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 22px;
+	text-align: center;
+	color: #222;
+}
+
+.nav>li>a {
+	color: #fff !important;
+	padding: 15px;
+}
+
+.nav>li>a:hover {
+	background-color: #333;
+}
+
+.top-message {
+
+}
+
+.top-image {
+
+}
+
+.fa fa-arrow-circle-o-down {
+	z-index: 1;
+	position: absolute;
+	text-align: center;
+	top-margin: 600px;
+}
+
+
+
+/* TITLES */
+
+.services-title,
+.hire-us-title,
+.projects-title,
+.testimonial-title,
+.team-title {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 60px 350px 30px 350px;
+	color: #fff;
+	padding: 10px 0px;
+	border: 2px solid #222;
+	background-color: #222;
+	letter-spacing: 3px;
+	border-radius: 5px 15px;
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+/* SERVICES SECTION */
+
+#services {
+	
+}
+
+.services-image {
+	display: inline;
+	text-align: center;
+}
+
+.services-image > h2 {
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.services-image > p {
+	font-family: "Caslon", "Baskerville", serif;
+	font-size: 17px;
+}
+
+.service__image {
+	display: block;
+	margin: 0 auto;
+}
+
+.exploration {
+	padding-bottom: 20px;
+}
+
+.graphic-design {
+	padding: 30px 0px;
+}
+
+.web-dev {
+	padding: 30px 0px;
+}
+
+/*  PROJECTS SECTION */
+
+#projects {
+
+}
+
+.project-image {
+	margin: 30px 0px;
+}
+
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+
+}
+
+.testimonials-message > h3 {
+	font-family: "Helvetica", sans-serif;
+}
+
+.testimonials-message > p {
+	border: 2px dashed #555;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: "Caslon", "Baskerville", serif;
+	font-size: 18px;
+}
+
+
+/* TEAM SECTION */
+
+#team {
+	
+}
+
+.team-image {
+	display: inline;
+	text-align: center;
+}
+
+.team__image {
+	display: block;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
+
+.team-image > h2 {
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.team-image > h4 {
+	font-family: "Heveltica", sans-serif;
+}
+
+/* HIRE-US SECTION */
+
+#hire-us {
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.col-md-6 col-md-offset-3 button {
+	background-color: blue;
+	color: blue;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+	background-color: #222;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 30px;
+	padding: 10px 0px;
+}
+
+.footer-text {
+	text-align: center;
+	font-family: "Helvetica", sansserif;
+	letter-spacing: 0.5px;
+}
+
+.footer-text > p > a {
+	color: #fff;
+}
